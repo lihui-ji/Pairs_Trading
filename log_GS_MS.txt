@@ -1,0 +1,128 @@
+The backtest parameters:
+{'start_time': '2020-12-14', 'end_time': '2021-06-08', 'look_back': '2 Y', 'num_strategy_look_back': 126, 'resolution': '1 day', 'margin': 0.5, 'entry_point_pos': 2, 'entry_point_neg': -2, 'exit_point_pos': 0.1, 'exit_point_neg': -0.1, 'leverage': 1.5, 'cash_initial': 2000, 'limit_stop_loss': -0.2}
+In the backtest for pair ['GS', 'MS'] from 2020-12-14 to 2021-06-08, there are 0 days of Margin Call and 0 days of Stop Loss.
+Warning Message: None
+The overall statistics:
+{'pair': "['GS', 'MS']", 'tradays': 121, 'warning_msg': 'None', 'final_PnL': -25.920094943918684, 'final_return': -0.012960047471959342, 'sharp_ratio': -0.6516598447785511, 'period_end_date': '2021-05-14', 'period_PnL': -79.14545819611294, 'period_final_return': -0.039572729098056474, 'period_tradays': 104, 'period_daily_return': -0.0003881652182274875, 'period_sharp_ratio': -1.8949318292481088, 'friction_all ': 0.0, 'max_daily_PnL': 30.650023699069607, 'min_daily_PnL': -56.70291883367963, 'max_daily_return': 0.015616859297864494, 'min_daily_return': -0.029834509907324475, 'final_PnL_no_friction': -25.920094943918684, 'final_return_no_friction': -0.012960047471959342, 'num_margin_call': 0, 'num_stop_los': 0, 'holding_days': 104, 'holding_days_percent': 0.859504132231405, 'max_zscore_open': 2.7890708466263563, 'min_zscore_open': -2.5034936116985103, 'max_zscore_close': 2.6251610623128494, 'min_zscore_close': -2.7375878154325095}
+
+2020-12-14 Type: Pair Operation Message: Pair Operation: EXIT. 
+2020-12-15 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-16 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-17 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-18 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-21 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-22 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-23 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-24 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-28 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-29 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-30 Type: Pair Operation Message: Pair Operation: HOLD. 
+2020-12-31 Type: Pair Operation Message: Pair Operation: HOLD. 
+2021-01-04 Type: Pair Operation Message: Pair Operation: HOLD. 
+2021-01-05 Type: Pair Operation Message: Pair Operation: HOLD. 
+2021-01-06 Type: Pair Operation Message: Pair Operation: HOLD. 
+2021-01-07 Type: Pair Operation Message: Pair Operation: HOLD. 
+2021-01-08 Type: Pair Operation Message: Pair Operation: ENTER. Long 5.675306256078954 shares of GS. Short 18.031564028802816 shares of MS. 
+2021-01-11 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.1494094817244802 shares of GS. Short 0.38866799713272826 shares of MS. 
+2021-01-12 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.2764618975755395 shares of GS. Long 0.6145969752682596 shares of MS. 
+2021-01-13 Type: Pair Operation Message: Pair Operation: ENTER. Short 0.1755802060876217 shares of GS. Short 0.0690057957142578 shares of MS. 
+2021-01-14 Type: Pair Operation Message: Pair Operation: ENTER. Short 0.16096989556589136 shares of GS. Long 0.05304411674496734 shares of MS. 
+2021-01-15 Type: Pair Operation Message: Pair Operation: ENTER. Long 0.016107388562278224 shares of GS. Short 0.33917509851039895 shares of MS. 
+2021-01-19 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0677302084414304 shares of GS. Long 0.19295730811616707 shares of MS. 
+2021-01-20 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.2668052618837997 shares of GS. Short 0.4998010390431098 shares of MS. 
+2021-01-21 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.09528262219603967 shares of GS. Short 0.4165074614711024 shares of MS. 
+2021-01-22 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.005737518704629352 shares of GS. Short 0.4193001417415374 shares of MS. 
+2021-01-25 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.08355301338470777 shares of GS. Short 0.02044231563897725 shares of MS. 
+2021-01-26 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.006764720490294529 shares of GS. Short 0.17600845903188045 shares of MS. 
+2021-01-27 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.11203150410541696 shares of GS. Short 0.7317648443711704 shares of MS. 
+2021-01-28 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.025252664382773737 shares of GS. Short 0.14407460433008623 shares of MS. 
+2021-01-29 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.02040817408568074 shares of GS. Short 0.08837849205959003 shares of MS. 
+2021-02-01 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.019387485739375876 shares of GS. Short 0.24692944351039614 shares of MS. 
+2021-02-02 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.14794214629758606 shares of GS. Long 0.38626836841442014 shares of MS. 
+2021-02-03 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.20355853222264209 shares of GS. Long 0.5507006067856857 shares of MS. 
+2021-02-04 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.1260394436463308 shares of GS. Long 0.115885867189224 shares of MS. 
+2021-02-05 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.061495364595533175 shares of GS. Long 0.35380949890974733 shares of MS. 
+2021-02-08 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.014367983483238866 shares of GS. Short 0.013221364163840121 shares of MS. 
+2021-02-09 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.14338745366649253 shares of GS. Long 0.19072921468306703 shares of MS. 
+2021-02-10 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.008053006730698087 shares of GS. Long 0.01015666747424504 shares of MS. 
+2021-02-11 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.14578096623162207 shares of GS. Long 0.11376832170580187 shares of MS. 
+2021-02-12 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.020941780595117088 shares of GS. Short 0.1863825857077117 shares of MS. 
+2021-02-16 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.12551636773910246 shares of GS. Long 0.48342964269586375 shares of MS. 
+2021-02-17 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.07137563749726716 shares of GS. Short 0.13437166286034596 shares of MS. 
+2021-02-18 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.014620418375748123 shares of GS. Short 0.08589706276099207 shares of MS. 
+2021-02-19 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.025658821745077276 shares of GS. Long 0.015403339808280236 shares of MS. 
+2021-02-22 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.05800780696155883 shares of GS. Long 0.06083744998433005 shares of MS. 
+2021-02-23 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0841656061673639 shares of GS. Long 0.3095415738732612 shares of MS. 
+2021-02-24 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.04669824831351743 shares of GS. Long 0.07945445841103549 shares of MS. 
+2021-02-25 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.20637458281144294 shares of GS. Long 0.6690885798663153 shares of MS. 
+2021-02-26 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.061964922312989223 shares of GS. Short 0.5048487405229025 shares of MS. 
+2021-03-01 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.00785501533539712 shares of GS. Short 0.07644598119973622 shares of MS. 
+2021-03-02 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.054005308746047476 shares of GS. Long 0.26106255788656085 shares of MS. 
+2021-03-03 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.03463055983526342 shares of GS. Long 0.19804775115168738 shares of MS. 
+2021-03-04 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.04710770073392556 shares of GS. Long 0.012249765635619525 shares of MS. 
+2021-03-05 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.04762063226716773 shares of GS. Long 0.09965858847412434 shares of MS. 
+2021-03-08 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.07311575539424453 shares of GS. Short 0.20544439004819282 shares of MS. 
+2021-03-09 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.012555349156551543 shares of GS. Short 0.23156712536113133 shares of MS. 
+2021-03-10 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.022030208951414387 shares of GS. Long 0.19959050908380505 shares of MS. 
+2021-03-11 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.11016846900623634 shares of GS. Long 0.28869411231806197 shares of MS. 
+2021-03-12 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0811376200133429 shares of GS. Long 0.31192338140608555 shares of MS. 
+2021-03-15 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0808632346627407 shares of GS. Long 0.14619266032157796 shares of MS. 
+2021-03-16 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.0273537741542329 shares of GS. Short 0.24900820816840508 shares of MS. 
+2021-03-17 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.011841368443036515 shares of GS. Short 0.0413648794149708 shares of MS. 
+2021-03-18 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.08655951801792483 shares of GS. Long 0.26643228184184764 shares of MS. 
+2021-03-19 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.017083708259727715 shares of GS. Short 0.24464382665475526 shares of MS. 
+2021-03-22 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.12234301913934598 shares of GS. Short 0.2597931183223281 shares of MS. 
+2021-03-23 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.018162713264684882 shares of GS. Short 0.21516816198770528 shares of MS. 
+2021-03-24 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.04071687556794057 shares of GS. Short 0.2560309156649119 shares of MS. 
+2021-03-25 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.09597699776630986 shares of GS. Short 0.3249529334678911 shares of MS. 
+2021-03-26 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.07287851068486884 shares of GS. Long 0.38656868136445155 shares of MS. 
+2021-03-29 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.11748845313651302 shares of GS. Short 0.8954440677173601 shares of MS. 
+2021-03-30 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.14753999455140843 shares of GS. Long 0.42316557483839645 shares of MS. 
+2021-03-31 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.02974760818748834 shares of GS. Short 0.016127527047380852 shares of MS. 
+2021-04-01 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.0827039702438821 shares of GS. Short 0.3493820009621551 shares of MS. 
+2021-04-05 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.14514801924416432 shares of GS. Long 0.3716374097587902 shares of MS. 
+2021-04-06 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.10807390976892783 shares of GS. Short 0.4772975366871606 shares of MS. 
+2021-04-07 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.03164983779802544 shares of GS. Long 0.14368374942326412 shares of MS. 
+2021-04-08 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.03965541936109762 shares of GS. Short 0.22220328316234372 shares of MS. 
+2021-04-09 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.14258526579025244 shares of GS. Long 0.4373464347909213 shares of MS. 
+2021-04-12 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.03363405041837364 shares of GS. Short 0.08293209396947887 shares of MS. 
+2021-04-13 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.008847746576563509 shares of GS. Short 0.24353304544358778 shares of MS. 
+2021-04-14 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.00754120156556759 shares of GS. Short 0.11976592806239239 shares of MS. 
+2021-04-15 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.1551042043555091 shares of GS. Long 0.4435863510770268 shares of MS. 
+2021-04-16 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.057032773574853035 shares of GS. Short 0.025516024682666227 shares of MS. 
+2021-04-19 Type: Pair Operation Message: Pair Operation: ENTER. Short 0.11767252593701372 shares of GS. Short 0.22197900211838473 shares of MS. 
+2021-04-20 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.024990923337163462 shares of GS. Short 0.01782676396457461 shares of MS. 
+2021-04-21 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.07774166950962513 shares of GS. Short 0.5741751120359453 shares of MS. 
+2021-04-22 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.015525134105106808 shares of GS. Long 0.22667205132060175 shares of MS. 
+2021-04-23 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.02666080562302131 shares of GS. Short 0.22297212006674272 shares of MS. 
+2021-04-26 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0800257138724052 shares of GS. Long 0.5080233584704672 shares of MS. 
+2021-04-27 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.06493762996834151 shares of GS. Long 0.012607129925189753 shares of MS. 
+2021-04-28 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.04684058828525561 shares of GS. Long 0.13971733438116374 shares of MS. 
+2021-04-29 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.030829853505330185 shares of GS. Long 0.060880503854630064 shares of MS. 
+2021-04-30 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.041579250376588384 shares of GS. Short 0.07796431405001769 shares of MS. 
+2021-05-03 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0019114068446746124 shares of GS. Short 0.11789988916346417 shares of MS. 
+2021-05-04 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.03546759853872894 shares of GS. Short 0.190099651295089 shares of MS. 
+2021-05-05 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.046263069909378896 shares of GS. Long 0.041926752123380595 shares of MS. 
+2021-05-06 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.07356393292880137 shares of GS. Long 0.2654871654479365 shares of MS. 
+2021-05-07 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.036160767267991556 shares of GS. Long 0.04099832458899755 shares of MS. 
+2021-05-10 Type: Pair Operation Message: Pair Operation: EXIT. Short 0.09814860927230029 shares of GS. Long 0.3907975814166349 shares of MS. 
+2021-05-11 Type: Pair Operation Message: Pair Operation: EXIT. Long 0.038523226932181576 shares of GS. Short 0.5255620729603052 shares of MS. 
+2021-05-12 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.009246980476429467 shares of GS. Short 0.07605867900374008 shares of MS. 
+2021-05-13 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.08177330652521331 shares of GS. Short 0.4406845244134132 shares of MS. 
+2021-05-14 Type: Pair Operation Message: Pair Operation: EXIT. Short 0.08382271223443372 shares of GS. Long 0.30162608779686906 shares of MS. 
+2021-05-17 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.0575280847335109 shares of GS. Long 0.18178340376129398 shares of MS. 
+2021-05-18 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.016818799052273903 shares of GS. Long 0.10835853658311123 shares of MS. 
+2021-05-19 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.05947280417193035 shares of GS. Short 0.5140402634166037 shares of MS. 
+2021-05-20 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.03757758577860404 shares of GS. Short 0.0406528773410173 shares of MS. 
+2021-05-21 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.01824573250827033 shares of GS. Long 0.08159409988720867 shares of MS. 
+2021-05-24 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.03188983646809307 shares of GS. Long 0.223680181604486 shares of MS. 
+2021-05-25 Type: Pair Operation Message: Pair Operation: ENTER. Short 6.644552701067017 shares of GS. Long 38.44851080222825 shares of MS. 
+2021-05-26 Type: Pair Operation Message: Pair Operation: ENTER. Short 0.0606616120372756 shares of GS. Long 0.5337932452243273 shares of MS. 
+2021-05-27 Type: Pair Operation Message: Pair Operation: ENTER. Long 0.06985921858432231 shares of GS. Short 0.3803329929043535 shares of MS. 
+2021-05-28 Type: Pair Operation Message: Pair Operation: ENTER. Long 0.007671821339121365 shares of GS. Short 0.1962748101196965 shares of MS. 
+2021-06-01 Type: Pair Operation Message: Pair Operation: ENTER. Long 0.06642070847306147 shares of GS. Short 0.5786398053455457 shares of MS. 
+2021-06-02 Type: Pair Operation Message: Pair Operation: ENTER. Long 0.00871118612053623 shares of GS. Long 0.0746542242266095 shares of MS. 
+2021-06-03 Type: Pair Operation Message: Pair Operation: ENTER. Short 0.01716429564706745 shares of GS. Short 0.009301703712754517 shares of MS. 
+2021-06-04 Type: Pair Operation Message: Pair Operation: ENTER. Long 0.053893719037489074 shares of GS. Short 0.39613585351397873 shares of MS. 
+2021-06-07 Type: Pair Operation Message: Pair Operation: HOLD. Long 0.007875965612726965 shares of GS. Short 0.08963402762944028 shares of MS. 
+2021-06-08 Type: Pair Operation Message: Pair Operation: HOLD. Short 0.08980231986772225 shares of GS. Long 0.3684539702730554 shares of MS. 
